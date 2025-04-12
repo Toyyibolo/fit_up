@@ -1,0 +1,426 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fit_up",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "fit_up (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "fit_up (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "common_models",
+            "cwd": "packages\\common_models",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "common_models (profile mode)",
+            "cwd": "packages\\common_models",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "common_models (release mode)",
+            "cwd": "packages\\common_models",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "component_library",
+            "cwd": "packages\\component_library",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "component_library (profile mode)",
+            "cwd": "packages\\component_library",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "component_library (release mode)",
+            "cwd": "packages\\component_library",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "health_metrics",
+            "cwd": "packages\\health_metrics",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "health_metrics (profile mode)",
+            "cwd": "packages\\health_metrics",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "health_metrics (release mode)",
+            "cwd": "packages\\health_metrics",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hydration_tracker",
+            "cwd": "packages\\hydration_tracker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hydration_tracker (profile mode)",
+            "cwd": "packages\\hydration_tracker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hydration_tracker (release mode)",
+            "cwd": "packages\\hydration_tracker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "meal_repository",
+            "cwd": "packages\\meal_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "meal_repository (profile mode)",
+            "cwd": "packages\\meal_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "meal_repository (release mode)",
+            "cwd": "packages\\meal_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "meal_service",
+            "cwd": "packages\\meal_service",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "meal_service (profile mode)",
+            "cwd": "packages\\meal_service",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "meal_service (release mode)",
+            "cwd": "packages\\meal_service",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "responsive_helper",
+            "cwd": "packages\\responsive_helper",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "responsive_helper (profile mode)",
+            "cwd": "packages\\responsive_helper",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "responsive_helper (release mode)",
+            "cwd": "packages\\responsive_helper",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "sleep_repository",
+            "cwd": "packages\\sleep_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "sleep_repository (profile mode)",
+            "cwd": "packages\\sleep_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "sleep_repository (release mode)",
+            "cwd": "packages\\sleep_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "sleep_service",
+            "cwd": "packages\\sleep_service",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "sleep_service (profile mode)",
+            "cwd": "packages\\sleep_service",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "sleep_service (release mode)",
+            "cwd": "packages\\sleep_service",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "workout_repository",
+            "cwd": "packages\\workout_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "workout_repository (profile mode)",
+            "cwd": "packages\\workout_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "workout_repository (release mode)",
+            "cwd": "packages\\workout_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "workout_service",
+            "cwd": "packages\\workout_service",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "workout_service (profile mode)",
+            "cwd": "packages\\workout_service",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "workout_service (release mode)",
+            "cwd": "packages\\workout_service",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "activity_tracker",
+            "cwd": "packages\\features\\activity_tracker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "activity_tracker (profile mode)",
+            "cwd": "packages\\features\\activity_tracker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "activity_tracker (release mode)",
+            "cwd": "packages\\features\\activity_tracker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "dashboard",
+            "cwd": "packages\\features\\dashboard",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dashboard (profile mode)",
+            "cwd": "packages\\features\\dashboard",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dashboard (release mode)",
+            "cwd": "packages\\features\\dashboard",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "notification",
+            "cwd": "packages\\features\\notification",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "notification (profile mode)",
+            "cwd": "packages\\features\\notification",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "notification (release mode)",
+            "cwd": "packages\\features\\notification",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "onboarding",
+            "cwd": "packages\\features\\onboarding",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "onboarding (profile mode)",
+            "cwd": "packages\\features\\onboarding",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "onboarding (release mode)",
+            "cwd": "packages\\features\\onboarding",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "profile_completion",
+            "cwd": "packages\\features\\profile_completion",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "profile_completion (profile mode)",
+            "cwd": "packages\\features\\profile_completion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "profile_completion (release mode)",
+            "cwd": "packages\\features\\profile_completion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "profile_info",
+            "cwd": "packages\\features\\profile_info",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "profile_info (profile mode)",
+            "cwd": "packages\\features\\profile_info",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "profile_info (release mode)",
+            "cwd": "packages\\features\\profile_info",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "select_goal",
+            "cwd": "packages\\features\\select_goal",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "select_goal (profile mode)",
+            "cwd": "packages\\features\\select_goal",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "select_goal (release mode)",
+            "cwd": "packages\\features\\select_goal",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "sign_in",
+            "cwd": "packages\\features\\sign_in",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "sign_in (profile mode)",
+            "cwd": "packages\\features\\sign_in",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "sign_in (release mode)",
+            "cwd": "packages\\features\\sign_in",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "sign_up",
+            "cwd": "packages\\features\\sign_up",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "sign_up (profile mode)",
+            "cwd": "packages\\features\\sign_up",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "sign_up (release mode)",
+            "cwd": "packages\\features\\sign_up",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

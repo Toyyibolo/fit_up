@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
+//import 'package:responsive_helper/responsive_helper.dart';
 
 class TargetCard extends StatelessWidget {
   @override
-    double width = MediaQuery.of(context).size.width;
+
+   Widget build(BuildContext context){
+    //double width = MediaQuery.of(context).size.width;
     return Padding(
       padding: const EdgeInsets.only(right: 20),
       child: Container(
-        width: width,
+        width: 1.sw,
         height: 60,
         decoration: BoxDecoration(
             color: Color.fromARGB(255, 209, 221, 243),
